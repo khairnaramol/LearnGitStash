@@ -1,1 +1,15 @@
-save somewhere
+Stash - Temparory save our changes 
+  git clone <new respotiory link from git site>
+  cd <nameofProject>
+  git checkout -b testFix
+  git add stashFile
+  git checkout master ( issue - master will be copying newly added file from 
+	testFix branch)
+   - so before commit use stash 
+  git stash save "comments for temp saving"
+   - to retrive file from temp location use  - use below command
+  git stash apply 
+   - remove temp location stash data 
+  git stash pop
+   
+
